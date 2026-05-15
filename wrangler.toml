@@ -1,9 +1,6 @@
 name = "flaredrive"
 compatibility_date = "2024-01-01"
-
-[build]
-command = "npm run build"
-destination = "build"
+pages_build_output_dir = "build"
 
 [[r2_buckets]]
 binding = "BUCKET"
